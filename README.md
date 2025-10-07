@@ -27,24 +27,21 @@ This project provides a simple Python tool to analyze COCO-format JSON datasets.
 
 ## Folder Structure
 
-coco_analysis/
-│
-├─ scripts/
-│ └─ coco_summary.py
-├─ data/
-│ └─ mock_coco.json
-├─ output/ # created after running splits
-├─ README.md
-├─ requirements.txt
-└─ venv/
+**coco_analysis/**
+1.scripts/
+   coco_summary.py
+2.data/
+   mock_coco.json
+3.output/ (created after running splits)
+4.README.md
+5.requirements.txt
+6.venv/
 
 ---
 
 ## Installation
 
 1. Create a virtual environment:
-
-```bash
 python -m venv venv
 
 2. Activate the environment:
